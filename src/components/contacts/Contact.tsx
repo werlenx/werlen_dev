@@ -25,12 +25,7 @@ const ContactForm = () => {
         <button type="submit" className="btn">Enviar</button>
         <button type="reset" className="btn btn-reset">Limpar</button>
       </form>
-      <div className="social-icons">
-        <a href="https://wa.me/91985055247" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>whatsapp</a>
-        <a href="https://github.com/werlenx" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i>Github</a>
-        <a href="https://linkedin.com/in/werlen-araujo" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin">Linkedin</i></a>
-        <a href="https://instagram.com/werlenx" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i>Instagram</a>
-      </div>
+      
     </ContactFormStyled>
   );
 };

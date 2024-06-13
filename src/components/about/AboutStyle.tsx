@@ -9,9 +9,14 @@ const AboutStyle = styled.div`
   flex-direction: column;
   margin: 40px;
   width: 80vw;
+  grid-area: outlet;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  box-sizing: border-box;
 
   .container {
-    padding: 0 40px 0 40px;
+    /* padding: 0 40px 0 40px; */
+    /* border: 1px solid #ccc; */
   }
   .about-container{
     display: flex;

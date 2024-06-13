@@ -3,7 +3,25 @@ import {FooterStyle} from  './foorter.style'
 export default function Footer(){
     return(
         <FooterStyle>
-            created by the constructor of this class and its children with the following
+            <div className='copy'>
+                &copy; Copyright 
+            </div>
+            <div className='container'>
+                <div className='info'>
+                    <p>
+                        created by Werlen Araujo
+                    </p>
+                </div>
+                <div className='social div2'>
+                    <div className="social-icons">
+                        <a href="https://wa.me/91985055247" target="_blank" rel="noopener noreferrer"><img src='whatsapp.png'/><span>W</span>hatsapp</a>
+                        <a href="https://github.com/werlenx" target="_blank" rel="noopener noreferrer"><img src='github.png'/><span>G</span>ithub</a>
+                        <a href="https://linkedin.com/in/werlen-araujo" target="_blank" rel="noopener noreferrer"><img src='linkedin.png'/><span>L</span>inkedin</a>
+                        <a href="https://instagram.com/werlenx" target="_blank" rel="noopener noreferrer"><img src='instagram.png'/><span>I</span>Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
         </FooterStyle>
     )
 }

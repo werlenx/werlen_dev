@@ -18,12 +18,12 @@ export default function About() {
         </div>
 
         <p className="description-about">
-          <p>Olá, meu nome é Werlen Araujo dos Santos. Bem-vindo!</p>
+          <p>Olá, me chamo Werlen Araujo dos Santos. Seja bem-vindo!</p>
           <p>
             Sou natural de Moju-PA e estou me formando em Sistemas de Informação na UNIFESSPA. Atualmente, sou professor de informática no IFP e trabalho com projetos de design, desenvolvimento web e web3.
             </p>
           <p>
-            Meu segundo emprego foi em uma lan house, onde passei horas jogando GTA IV em um servidor local. Foi aí que minha paixão pela tecnologia nasceu. Essa experiência inicial não apenas despertou meu interesse pelos intricados sistemas por trás dos jogos, mas também revelou minha inclinação natural para o design. O que eu não sabia na época é como essa inclinação pelo design se integraria perfeitamente à minha crescente fascinação pela programação.
+          Um pouco da minha historia se passa na cidade onde nasci com um emprego de meio periodo em uma lanhouse e um servidor que rodava um GTA IV com os modes personalizados. Essa experiência inicial não apenas despertou meu interesse pelos sistemas, mas também pude aprender bastate sobre conceitos e ferramentas de design como photoshop, coreldraw entre outros que facilitaram minha experiencia na construção de sites consistentes e com personalidade do ponto de vista do design.
           </p>
           <p>
           Ao longo dos anos, desenvolvi afinidade com computadores e seu funcionamento interno. Essa jornada me levou a cursar Sistemas de Informação, onde tive o privilégio de encontrar mentores e amigos que enriqueceram minha formação e crescimento profissional.
