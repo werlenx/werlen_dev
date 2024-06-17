@@ -24,7 +24,7 @@ const FooterStyle = styled.div `
         span{
             font-family: Old English Text MT;;
         }
-        background-color: burlywood;
+        background-color: #383838;
         display: flex;
         flex-direction: row;
         p{
@@ -35,17 +35,20 @@ const FooterStyle = styled.div `
             padding: 0;
         }
         .div2{
-            width: 50%;
+            /* width: 50%; */
             
             .social-icons{
-                background-color: #e3e3e3;
+                color: #e8e8e8;
+                background-color: #d4d4d4;
                 display: flex;
                 flex-direction: column;
-                border: 1px solid black;
+                width: 30vw;
+
                 gap: 2px;
                 padding: 15px;
-                a{
-                    color: #080707;
+                
+                a{  
+                    margin-left: 98%;
                     width: 20%;
                     text-decoration: none;
                     font-size: 1.5rem;
@@ -53,12 +56,12 @@ const FooterStyle = styled.div `
                     align-items: center;
                     img{
                         padding: 5px;
-                        width: 30px;
-                        height: 30px;
+                        width: 20px;
+                        height: 20px;
                     }
                 }
                 a:visited {
-                    color: #080707;
+                    color: #e8e8e8;
                     text-decoration: none;
 }
             }

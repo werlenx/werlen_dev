@@ -3,62 +3,71 @@ import styled from "styled-components"
 const ProjectStyle = styled.div`
     display: flex;
     flex-direction: row;
-   
-    padding: 40px 0;
     grid-area: outlet;
-    grid-column-start: 2;
-    grid-column-end: 6;
-
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-
-    .info-projetc{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    padding: 0 40px;
+    height: 30vw;
+ 
+    
+    .info-project{
         color: black;
         padding: 0 40px 0 40px;
-
+        h2{
+            font-size: 2.5em;
+            padding: 0;
+            margin: 0;
+        }
     }
-    h2{
-        font-size: 2.5em;
-        padding: 0;
-        margin: 0;
-    }
-    .item_1{
+    
+    .project-container{
         display: flex;
         flex-direction: row;
+        width: 60vw;
         gap: 10px;
-        transition: transform 0.3s ease, box-shadow 0.5s ease;
-        div{
-            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        img{
+            transition: all 1.1s;
+            min-width: 100%;
+            min-height: 100%;
         }
 
     }
-    .item_2{
-        background-color: #1b0a0a;
-        width: 20vw;
-        
-        
+    .big-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     }
-    .item_3{
-        width: 10vw;
-        align-items: last baseline;
+    .big-item:hover img{
+        transform: scale(1.2);
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Small-item-container{
+        gap: 10px;
         display: flex;
         flex-direction: column;
-        gap: 10px;        
+        
     }
-    .item_4{
-        background-color: #4b4d4a;
-        /* height: 100%; */
+    .Small-item{
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        height: 50%;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     }
-    .item_4:hover{
-        transform: scale(1.05); 
+    .Small-item:hover img{
+        transform: scale(1.1);
+    }
+    .Small-item:hover{
+        background-size: 150%; 
         cursor: pointer; 
     }
-    .item_2:hover{
-        transform: scale(1.05); 
+    .big-item:hover{
+        background-size: 150%; 
         cursor: pointer; 
     }
 `
