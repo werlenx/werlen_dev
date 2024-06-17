@@ -4,7 +4,7 @@ export default function Nav(){
     return(
         <NavBar>
             <div className='banner'>
-                <img src="../../public/logo.png" alt="" />
+                <img src="logo.png" alt="" />
                 <div className='title'>
                     <h1>Werlen Araujo dos Santos</h1>
                     <p>
