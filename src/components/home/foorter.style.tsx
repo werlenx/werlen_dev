@@ -51,7 +51,7 @@ const FooterStyle = styled.div `
                     margin-left: 98%;
                     width: 20%;
                     text-decoration: none;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     display: flex;
                     align-items: center;
                     img{

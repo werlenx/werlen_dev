@@ -5,9 +5,10 @@ const ContactFormStyled = styled.div`
   color: #202020;
   width: 100%;
   grid-area: outlet;
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 6;
   box-sizing: border-box;
+  padding: 0 40px;
 
   h1 {
     /* text-align: center; */
@@ -27,10 +28,13 @@ const ContactFormStyled = styled.div`
     width: 40%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 16px;
   }
 
+  input:focus, textarea:focus {
+    border: 2px solid #ffffff;
+    outline: none;
+  }
   textarea {
     resize: vertical;
     height: 150px;
@@ -44,7 +48,6 @@ const ContactFormStyled = styled.div`
 
  
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 
 

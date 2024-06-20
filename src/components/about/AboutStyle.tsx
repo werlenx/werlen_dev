@@ -19,26 +19,31 @@ const AboutStyle = styled.div`
     /* border: 1px solid #ccc; */
   }
   .about-container{
+
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-between;
   }
 
   .description-about{
     text-align: justify;
+
+    margin: 0;
+    padding-left: 20px;
   }
 
   
 
   .sobre-min-card{
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
     width: 16vw;
     /* height: 40vh; */
-    padding: 0;
+    padding: 0 20px;
     h2{
       
     }
