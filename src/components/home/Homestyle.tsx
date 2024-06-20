@@ -45,12 +45,18 @@ const HomeStyle = styled.div`
         flex-direction: row;
         gap: 5px;
         justify-content: space-around;
-        background-color: blue;
+        /* background-color: #494971; */
         .work-card{
-            background-color: red;
-            width: 30vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #444444;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            width: 40vh;
             padding: 20px;
-            
+            p{
+                color: white;
+                text-align: justify;
+            }
         }
         img{
             height: 100%;

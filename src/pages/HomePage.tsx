@@ -36,7 +36,9 @@ export default function HomePage(){
                         <div className="work-card">
                             <img src="landingPage_ico.svg" alt="" />
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem minus dolorem assumenda provident saepe nostrum tenetur, sit ea quaerat modi voluptates ratione. Veniam dicta ex optio voluptatem laboriosam magnam.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem minus dolorem assumenda 
+                                provident saepe nostrum tenetur, sit ea quaerat modi voluptates ratione. Veniam dicta ex optio 
+                                voluptatem laboriosam magnam.
                             </p>
                         </div>
                         <div className="work-card">
