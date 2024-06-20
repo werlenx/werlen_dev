@@ -8,7 +8,8 @@ export default function Nav(){
                 <div className='title'>
                     <h1>Werlen Araujo dos Santos</h1>
                     <p>
-                        Desenvolverdor web e web3
+                        Desenvolverdor web e web3 <br />
+                        ⚠️ Estamos em construção ⚠️
                     </p>
                 </div>
             </div>

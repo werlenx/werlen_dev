@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const NavBar = styled.nav`
     grid-area: nav;
-    width: 100vw;
     
     display: flex;
     flex-direction: column;
@@ -38,6 +37,8 @@ const NavBar = styled.nav`
         padding: 10px;
         display: flex;
         flex-direction: row;
+        background-color: #202020;
+        margin: 0;
     }
     ul{
         margin: 5px 20px 5px 20px;
