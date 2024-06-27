@@ -30,29 +30,35 @@ export default function HomePage(){
                         </p>
                     </div>
                 </div>
-                <div>
-                    <h2>Páginas web</h2>
+                <div className="web-pages">
+                    <h2>Nossos serviços</h2>
                     <div className="work-card-container">
                         <div className="work-card">
                             <img src="landingPage_ico.svg" alt="" />
+                            <h4>Landing Pages</h4>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem minus dolorem assumenda 
-                                provident saepe nostrum tenetur, sit ea quaerat modi voluptates ratione. Veniam dicta ex optio 
-                                voluptatem laboriosam magnam.
+                                Maximize suas conversões com landing pages customizadas. Focadas em resultados, 
+                                nossas páginas são projetadas para capturar a atenção e impulsionar vendas.
                             </p>
                         </div>
                         <div className="work-card">
                             <img src="landingPage_ico.svg" alt="" />
+                            <h4>Aplicações web</h4>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem minus dolorem assumenda provident saepe nostrum tenetur, sit ea quaerat modi voluptates ratione. Veniam dicta ex optio voluptatem laboriosam magnam.
+                            desempenho superior, segurança robusta e experiência de usuário excepcional. 
+                            Aproveite funcionalidades avançadas e suporte técnico dedicado para impulsionar seu crescimento de forma otimizada e segura.
                             </p>
                         </div>
                         <div className="work-card">
                             <img src="landingPage_ico.svg" alt="" />
+                            <h4>E-comerce</h4>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem minus dolorem assumenda provident saepe nostrum tenetur, sit ea quaerat modi voluptates ratione. Veniam dicta ex optio voluptatem laboriosam magnam.
+                            Conveniência 24/7, ampla variedade de produtos, experiência personalizada, redução de custos, 
+                            expansão de mercado global e análise de dados para melhorias contínuas. 
+                            Transforme sua estratégia de vendas com agilidade e eficiência digital.
                             </p>
                         </div>
+                        
                         
                     </div>
                 </div>
