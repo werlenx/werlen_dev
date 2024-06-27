@@ -13,14 +13,15 @@ export default function HomePage(){
                             Combinanmos estética e funcionalidade para entregar soluções de design personalizadas que atendem às suas necessidades e superam suas expectativas.
                         </p>
                     </div>
-                    <div>
+                    <div className="image">
                         <img src="./home_img/original-ce49.jpg" alt="" />
                     </div>
                 </div>
                 <div className="design-card">
-                <div>
+                    <div className="image">
                         <img src="./home_img/original-4b.jpg" alt="" />
                     </div>
+                    
                     <div className="design-text">
                         <h2>Design</h2>
                         <h4>  Transformamos visões em realidade</h4>

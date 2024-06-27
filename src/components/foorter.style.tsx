@@ -63,7 +63,17 @@ const FooterStyle = styled.div `
                 a:visited {
                     color: #e8e8e8;
                     text-decoration: none;
-}
+                }
+            }
+        }
+    }
+    @media (max-width: 480px){
+        .container{
+            .div2{
+                .social-icons{
+                    gap: 2px;
+                    padding: 23px;
+                }
             }
         }
     }

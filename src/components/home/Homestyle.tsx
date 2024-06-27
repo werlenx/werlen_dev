@@ -23,6 +23,7 @@ const HomeStyle = styled.div`
             padding: 0 40px;
             width: 100%;
             h2{
+                margin-top: 0px;
                 font-size: 6vh;
             }
             h4{
@@ -69,12 +70,73 @@ const HomeStyle = styled.div`
             
         }
 
-    }
+        }
     }
 
     @media (max-width: 480px){
-        a{
-            color: white;
+        .design-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 50vh;
+            align-items: center;
+            overflow: hidden;
+            margin-bottom: 20px;
+            .design-text{
+                padding: 0 40px;
+                width: 100%;
+                h2{
+                    font-size: 2rem;
+                }
+                h4{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 1rem;
+                    text-align: justify;
+                }
+            }
+            .image{
+                width: 40vw;
+                overflow: hidden;
+            }
+            img{
+                height: 100%;
+            }
+        }
+        .web-pages{
+  
+            h2{
+                text-align: center;
+                margin-top: 80px;
+            }
+            h4{
+                color: #e3e3e3;
+                font-size: x-large;
+                margin-bottom: 0;
+            }
+            .work-card-container{
+                display: flex;
+                flex-direction: column;
+                /* justify-content: center; */
+                align-items: center;
+                gap: 20px;
+                .work-card{
+                    display: flex;
+                    flex-direction: column;
+
+                    width: 40vh;
+                    padding: 40px;
+                    align-items: center;
+                    p{
+                        color: white;
+                        text-align: justify;
+                    }
+                }
+                img{ 
+                    width: 40vw;
+                }
+            }
         }
     }
     

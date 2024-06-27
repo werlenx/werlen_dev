@@ -39,6 +39,7 @@ const NavBar = styled.nav`
         display: flex;
         flex-direction: row;
         background-color: #202020;
+        justify-content: flex-start;
         margin: 0;
     }
     ul{
@@ -90,24 +91,14 @@ const NavBar = styled.nav`
         .menu{
             padding: 5px;
         }
-        /* ul{
-            margin: 5px 20px;
-            padding: 0;
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-        } */
+
         li{
             margin: 10px;
             text-align: center;
+            
         }
         a{
-            background-color: #CCCCCC;
-            color: #202020;
-            font-size: 1.2rem;
-            text-decoration: none;
-            padding: 10px;
-
+            font-size: 1rem;
         }
     }
     @media (max-width: 780px){
