@@ -9,7 +9,7 @@ export default function Nav(){
                     <h1>Werlen Araujo dos Santos</h1>
                     <p>
                         Desenvolverdor web e web3 <br />
-                        ⚠️ Estamos em construção ⚠️
+                        ⚠️ Estamos em construção voltamos ⚠️
                     </p>
                 </div>
             </div>
